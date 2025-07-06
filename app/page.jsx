@@ -33,7 +33,7 @@ const Home = () => {
           </h1>
 
           <p className='max-w-[500px] mb-[44px]'>
-            I develop visually attractive and easy-to-use web solutions that enhance your image and engage your users.
+           Gain experience to perfect my skills and progress in the field of IT
           </p>
           {/* <button className='btn btn-lg btn-accent mb-16'>
             <div className='flex items-center gap-3'>
