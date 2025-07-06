@@ -38,7 +38,7 @@ const projects = [
     category: "backend",
     title: "Dijkstra App",
     description: " Calculate the longest/shortest path",
-    image: "/assets/work/Capture.png",
+    image: "/assets/work/capture.png",
     link: "",
     github: "https://github.com/harymarc08/Recherche-Operationnel.git",
     tech: ["NextJs", "Tailwind CSS", "TypeScript"],
