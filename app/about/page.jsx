@@ -10,6 +10,7 @@ import Journey from '@/components/Journey';
 import Skills from '@/components/Skills';
 import Blob from '@/components/Blob';
 import Socials from '@/components/Socials';
+import { MdFileDownload } from "react-icons/md";
 
 const About = () => {
   return (
@@ -43,6 +44,19 @@ const About = () => {
               <p className='max-w-[540px] mb-12'>
                 I create stunning, easy-to-use, and super-smooth websites. Everything is thought out down to the smallest detail so it works perfectly.
               </p>
+              <div className="flex flex-col items-start gap-16">
+                  <a
+                  href="/cv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className='btn btn-lg btn-tertiary mb-16 bg-red-500'
+                >
+                  <div className='flex items-center gap-3'>
+                    <span>Download CV</span>
+                    <MdFileDownload className='text-xl' />
+                  </div>
+                </a>
+              </div>
               <div className="flex flex-col items-start gap-16">
                 <Stats/>
                 {/* <Testimonial/> */}
