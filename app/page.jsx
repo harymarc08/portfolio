@@ -33,7 +33,7 @@ const Home = () => {
           </h1>
 
           <p className='max-w-[500px] mb-[44px]'>
-           Gain experience to perfect my skills and progress in the field of IT
+           Gaining experience to perfect my skills and progress in the field of IT
           </p>
           {/* <button className='btn btn-lg btn-accent mb-16'>
             <div className='flex items-center gap-3'>
